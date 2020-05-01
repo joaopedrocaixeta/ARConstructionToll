@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="cubin.Right" size="3.000000 3.000000"/>
+        <ImageTarget name="cubin.Top" size="3.000000 2.993988"/>
+        <ImageTarget name="cubin.Bottom" size="3.000000 2.993976"/>
+        <ImageTarget name="cubin.Left" size="3.000000 3.000000"/>
+        <ImageTarget name="cubin.Back" size="3.000000 2.987976"/>
+        <ImageTarget name="cubin.Front" size="3.000000 3.000000"/>
+        <MultiTarget name="cubin">
+            <Part name="cubin.Left" translation="-1.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="cubin.Right" translation="1.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="cubin.Front" translation="0 0 1.5" rotation="AD: 1 0 0 0"/>
+            <Part name="cubin.Back" translation="0 0 -1.5" rotation="AD: 0 1 0 180"/>
+            <Part name="cubin.Top" translation="0 1.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="cubin.Bottom" translation="0 -1.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
